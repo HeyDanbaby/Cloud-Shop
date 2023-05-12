@@ -1,0 +1,22 @@
+{
+	"name": "usemall-wx-service",
+    "version": "1.0.0",
+    "description": "微信服务号（公众号）",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "author": "Usecloud",
+    "license": "ISC",
+    "dependencies": {
+		"use-api": "file:../common/use-api",
+		"uni-config-center": "file:../../../uni_modules/uni-config-center/uniCloud/cloudfunctions/common/uni-config-center"
+    },
+    "cloudfunction-config": {
+        "memorySize": 512,
+        "timeout": 30,
+        "triggers": [],
+        "path": "/http/wx-service",
+        "concurrency": 3
+    }
+}

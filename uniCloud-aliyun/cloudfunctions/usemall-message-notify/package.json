@@ -1,0 +1,25 @@
+{
+  "name": "usemall-message-notify",
+  "version": "1.0.0",
+  "description": "消息通知（公众号、unipush2.0）",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Usecloud",
+  "license": "ISC",
+  "dependencies": {
+    "use-api": "file:../common/use-api",
+    "uni-config-center": "file:../../../uni_modules/uni-config-center/uniCloud/cloudfunctions/common/uni-config-center"
+  },
+  "cloudfunction-config": {
+    "memorySize": 512,
+    "timeout": 30,
+    "triggers": [],
+    "path": "/http/message-notify",
+    "concurrency": 3
+  },
+  "extensions": {
+    "uni-cloud-push": {}
+  }
+}

@@ -1,0 +1,142 @@
+{
+    "id": "Usecloud-usemall",
+    "name": "用云电商 uniCloud 版",
+    "version": "2.3.1",
+    "description": "用云电商 usemall 电商数字化解决方案，多元场景便捷购物体验。私有化电商项目，支持二开定制，帮助品牌商、零售商快速搭建属于自己的多渠道、多场景电商服务平台。让企业用更低的成本、人力、快速盈利。",
+    "keywords": [
+        "拼团秒杀积分",
+        "商城支付",
+        "分销会员",
+        "购物圈",
+        "unipush2.0-客服IM"
+    ],
+    "displayName": "用云电商 uniCloud 版",
+    "repository": "https://gitee.com/usecloud/usemall",
+    "dcloudext": {
+        "sale": {
+            "regular": {
+                "price": "1680.00"
+            },
+            "sourcecode": {
+                "price": "2380.00"
+            }
+        },
+        "contact": {
+            "qq": "2331990600"
+        },
+        "declaration": {
+            "ads": "无",
+            "data": "无",
+            "permissions": "无"
+        },
+        "npmurl": "",
+        "type": "unicloud-template-project"
+    },
+    "uni_modules": {
+		"encrypt": [
+			"uniCloud-aliyun/cloudfunctions/common/use-api/bdapi/index.js",
+			"uniCloud-aliyun/cloudfunctions/common/use-api/utils/index.js",
+			"uniCloud-aliyun/cloudfunctions/common/use-api/wxapi/index.js",
+			"uniCloud-aliyun/cloudfunctions/common/use-api/index.js",
+			"uniCloud-aliyun/cloudfunctions/notify/index.js",
+			"uniCloud-aliyun/cloudfunctions/notify-recharge/index.js",
+			"uniCloud-aliyun/cloudfunctions/notify-vip/index.js",
+			"uniCloud-aliyun/cloudfunctions/usemall/index.js",
+			"uniCloud-aliyun/cloudfunctions/usemall/controller/app/mp.js",
+			"uniCloud-aliyun/cloudfunctions/usemall/controller/marketing/coupon.js",
+			"uniCloud-aliyun/cloudfunctions/usemall/controller/marketing/groupbuy.js",
+			"uniCloud-aliyun/cloudfunctions/usemall/controller/marketing/lottery.js",
+			"uniCloud-aliyun/cloudfunctions/usemall/controller/marketing/seckill.js",
+			"uniCloud-aliyun/cloudfunctions/usemall/controller/mp/weixin.js",
+			"uniCloud-aliyun/cloudfunctions/usemall/controller/fxs.js",
+			"uniCloud-aliyun/cloudfunctions/usemall/controller/goods.js",
+			"uniCloud-aliyun/cloudfunctions/usemall/controller/integral.js",
+			"uniCloud-aliyun/cloudfunctions/usemall/controller/member.js",
+			"uniCloud-aliyun/cloudfunctions/usemall/controller/money.js",
+			"uniCloud-aliyun/cloudfunctions/usemall/controller/order.js",
+			"uniCloud-aliyun/cloudfunctions/usemall/controller/orderaftersale.js",
+			"uniCloud-aliyun/cloudfunctions/usemall/controller/pay.js",
+			"uniCloud-aliyun/cloudfunctions/usemall/controller/shopping.js",
+			"uniCloud-aliyun/cloudfunctions/usemall/controller/vip.js",
+			"uniCloud-aliyun/cloudfunctions/usemall/controller/wxservice.js",
+			"uniCloud-aliyun/cloudfunctions/usemall/service/express.js",
+			"uniCloud-aliyun/cloudfunctions/usemall/service/h5wx.js",
+			"uniCloud-aliyun/cloudfunctions/usemall/service/integral.js",
+			"uniCloud-aliyun/cloudfunctions/usemall/service/marketing.js",
+			"uniCloud-aliyun/cloudfunctions/usemall/service/md5.js",
+			"uniCloud-aliyun/cloudfunctions/usemall/service/utils.js",
+			"uniCloud-aliyun/cloudfunctions/usemall-message-notify/notifyfunc/index.js",
+			"uniCloud-aliyun/cloudfunctions/usemall-message-notify/unipush/index.js",
+			"uniCloud-aliyun/cloudfunctions/usemall-message-notify/utils/index.js",
+			"uniCloud-aliyun/cloudfunctions/usemall-message-notify/weixin/index.js",
+			"uniCloud-aliyun/cloudfunctions/usemall-message-notify/index.js",
+			"uniCloud-aliyun/cloudfunctions/usemall-wx-service/utils/index.js",
+			"uniCloud-aliyun/cloudfunctions/usemall-wx-service/wxfunc/index.js",
+			"uniCloud-aliyun/cloudfunctions/usemall-wx-service/index.js"
+		], 
+        "platforms": {
+            "cloud": {
+                "tcb": "y",
+                "aliyun": "y"
+            },
+            "client": {
+                "App": {
+                    "app-vue": "y",
+                    "app-nvue": "u"
+                },
+                "H5-mobile": {
+                    "Safari": "y",
+                    "Android Browser": "y",
+                    "微信浏览器(Android)": "y",
+                    "QQ浏览器(Android)": "y"
+                },
+                "H5-pc": {
+                    "Chrome": "y",
+                    "IE": "u",
+                    "Edge": "y",
+                    "Firefox": "y",
+                    "Safari": "y"
+                },
+                "小程序": {
+                    "微信": "y",
+                    "阿里": "y",
+                    "百度": "u",
+                    "字节跳动": "u",
+                    "QQ": "u"
+                },
+                "快应用": {
+                    "华为": "u",
+                    "联盟": "u"
+                },
+                "Vue": {
+                    "vue2": "y",
+                    "vue3": "u"
+                }
+            }
+        },
+	"extends" : 
+	{
+		"sn" : "T4o5vRo+MDJrDZyWfj1fNA/Of3/JYjC1DdRjJ/5VmuuXQS/GFOKqftZJttroNFfUThzclU8r1h4dEyRffiKjD99XMfiNMO6nloOJwhmJMf64RWP0VTfgp5vP92qc2+blUveZBXnZ/Hanev6N1RHY+shdVEMGwrd20wYNI3oo6e4jXjymBlMKBjaGZB7nS7M+nxsNXxmCLstHoW7mqq6xSeSUixjtdz8swI3neKeXWzR6F7ZFdKhu1yrnxmgLmHrW+A8cdqZj74eMBME7YMhETVgVPVn0RTlMs08itC71XsM+y8UUqHVjig9ANWiAA9SiQcrDB0Hk2vM1/MZrvkaRkw=="
+	}
+    },
+	"devDependencies": {
+		"mini-html-parser2": "^0.3.0"
+	},
+	"uni-app": {
+		"scripts": {
+			"h5Weixin": {
+				"title": "h5Weixin（微信公众号）",
+				"browser": "chrome",
+				"env": {
+					"UNI_PLATFORM": "h5"
+				},
+				"define": {
+					"H5-WEIXIN": true
+				}
+			}
+		}
+	},
+    "dependencies": {
+        "jweixin-module": "^1.6.0"
+    }
+}

@@ -1,0 +1,270 @@
+@font-face {
+	font-family: 'emoji';
+	src: url('//at.alicdn.com/t/font_900373_o2q9oz0nivf.woff2?t=1616757390140') format('woff2'),
+		url('//at.alicdn.com/t/font_900373_o2q9oz0nivf.woff?t=1616757390140') format('woff');
+}
+
+.emoji {
+	font-family: "emoji" !important;
+	font-size: 16px;
+	font-style: normal;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+
+.emoji-dianzan:before {
+  content: "\e775";
+}
+
+.emoji-bushufu:before {
+  content: "\e75f";
+}
+
+.emoji-bianbian:before {
+  content: "\e760";
+}
+
+.emoji-fankun1:before {
+  content: "\e761";
+}
+
+.emoji-feiwen:before {
+  content: "\e762";
+}
+
+.emoji-ganmao:before {
+  content: "\e763";
+}
+
+.emoji-huaixiao:before {
+  content: "\e764";
+}
+
+.emoji-liuhan:before {
+  content: "\e765";
+}
+
+.emoji-outu:before {
+  content: "\e766";
+}
+
+.emoji-keshui:before {
+  content: "\e767";
+}
+
+.emoji-renzhe:before {
+  content: "\e768";
+}
+
+.emoji-santiaoxian:before {
+  content: "\e769";
+}
+
+.emoji-guaiwu:before {
+  content: "\e76a";
+}
+
+.emoji-shoushang:before {
+  content: "\e76b";
+}
+
+.emoji-tianshi:before {
+  content: "\e76c";
+}
+
+.emoji-shuai:before {
+  content: "\e76d";
+}
+
+.emoji-xianwen:before {
+  content: "\e76e";
+}
+
+.emoji-xiaodiaodaya:before {
+  content: "\e76f";
+}
+
+.emoji-xiong:before {
+  content: "\e770";
+}
+
+.emoji-yiwen:before {
+  content: "\e771";
+}
+
+.emoji-yun:before {
+  content: "\e772";
+}
+
+.emoji-liubixie:before {
+  content: "\e773";
+}
+
+.emoji-shimo:before {
+  content: "\e774";
+}
+
+.emoji-ku:before {
+  content: "\e75b";
+}
+
+.emoji-shengqi:before {
+  content: "\e75c";
+}
+
+.emoji-yousiliao:before {
+  content: "\e75d";
+}
+
+.emoji-en:before {
+  content: "\e75e";
+}
+
+.emoji-a:before {
+  content: "\e736";
+}
+
+.emoji-bizui:before {
+  content: "\e737";
+}
+
+.emoji-baiyan:before {
+  content: "\e738";
+}
+
+.emoji-aixin:before {
+  content: "\e739";
+}
+
+.emoji-dajing:before {
+  content: "\e73a";
+}
+
+.emoji-ziya:before {
+  content: "\e73b";
+}
+
+.emoji-daxiao:before {
+  content: "\e73c";
+}
+
+.emoji-esi:before {
+  content: "\e73d";
+}
+
+.emoji-fadai:before {
+  content: "\e73e";
+}
+
+.emoji-fankun:before {
+  content: "\e73f";
+}
+
+.emoji-ganga:before {
+  content: "\e740";
+}
+
+.emoji-fennu:before {
+  content: "\e741";
+}
+
+.emoji-hanyan:before {
+  content: "\e742";
+}
+
+.emoji-jingkong:before {
+  content: "\e743";
+}
+
+.emoji-haochi:before {
+  content: "\e744";
+}
+
+.emoji-emo:before {
+  content: "\e745";
+}
+
+.emoji-jingsong:before {
+  content: "\e746";
+}
+
+.emoji-jingya:before {
+  content: "\e747";
+}
+
+.emoji-kaixin:before {
+  content: "\e748";
+}
+
+.emoji-lengku:before {
+  content: "\e749";
+}
+
+.emoji-danao:before {
+  content: "\e74a";
+}
+
+.emoji-liukoushui:before {
+  content: "\e74b";
+}
+
+.emoji-liulei:before {
+  content: "\e74c";
+}
+
+.emoji-mengbi:before {
+  content: "\e74d";
+}
+
+.emoji-mianwubiaoqing:before {
+  content: "\e74e";
+}
+
+.emoji-nanguo:before {
+  content: "\e74f";
+}
+
+.emoji-shuizhuo:before {
+  content: "\e750";
+}
+
+.emoji-taoyan:before {
+  content: "\e751";
+}
+
+.emoji-tanchi:before {
+  content: "\e752";
+}
+
+.emoji-siliao:before {
+  content: "\e753";
+}
+
+.emoji-tiaopi:before {
+  content: "\e754";
+}
+
+.emoji-xiaochulei:before {
+  content: "\e755";
+}
+
+.emoji-wuliao:before {
+  content: "\e756";
+}
+
+.emoji-xingxingyan:before {
+  content: "\e757";
+}
+
+.emoji-xieyan:before {
+  content: "\e758";
+}
+
+.emoji-xiasi:before {
+  content: "\e759";
+}
+
+.emoji-xiaolian:before {
+  content: "\e75a";
+}
